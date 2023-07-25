@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+
+}
+.container{
+    width: 1600px;
+height: 1024px;
+flex-shrink: 0;
+background-color:#6c8efc ;
+}
+.Rectangle{
+    display: inline-block;
+    position: relative;
+    background-color: #345AA4, #3F009C;
+    padding: 13px;
+    border-radius: 3px 0px 0px 3px;
+    width: 42px;
+    height: 43px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(90deg, #345AA4 0%, #3F009C 100%);
+    box-sizing: border-box;
+    top: 53px;
+}
+.RectangleSec{
+    display: inline-block;
+    position: relative;
+    width: 19px;
+    height: 20px;
+    flex-shrink: 0;
+    background: #FFF;
+    top: 40px;
+    right: 34px;
+}
+.PixelCreator{
+    color: #FAFAFA;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    right: -45px;
+    top: -52px;
+}
+.Home{
+    position: relative;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    left: 642px;
+    top: -154px;
+}
+.Contact{
+    color: #EBEBEB;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    left: 869px;
+    top: -230px;
+}
+.AboutUs{
+    color: #EBEBEB;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    left: 1129px;
+    top: -308px;
+}
+div .Button{
+    display: inline-block;
+    position: relative;
+    background-color: #345AA4, #3F009C;
+    padding: 13px;
+    width: 228px;
+    height: 77px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(90deg, #5f38bb 0%, rgba(63, 0, 156, 0.00) 100%);
+   box-sizing: border-box;
+   top: -400px;
+   border-radius: 13px;
+   left: 1344px;
+   z-index: 2px;
+}
+.Home, .Contact, .AboutUs, .SignUp{
+ position: relative;
+}
+.SignUp{
+    text-align: center;
+    padding: 0px;
+    color: #E5E5E5;
+font-family: Roboto;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+top: -32px;
+}
+.ImgFirst{
+    position: relative;
+    width: 833px;
+    height: 664px;
+    left: 680px;
+    top: -336px;
+}
+.LetsBuild{
+position: relative;
+color: #FFF;
+font-family: Roboto;
+bottom: 500px;
+top: -879px;
+font-size: 40px;
+}
+.future{
+    position: relative;
+    top: -54px;
+    font-size: 70px;
+}
+.Hurryup{
+    position: relative;
+    color: #E5E5E5;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+top: -980px;
+}
+.Last{
+    display: inline-block;
+    position: relative;
+    background-color: #345AA4, #3F009C;
+    padding: 13px;
+    border-radius: 3px 0px 0px 3px;
+    width: 277px;
+    height: 85px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(90deg, #345AA4 0%, #3F009C 100%);
+    box-sizing: border-box;
+    top: -950px;
+    border-radius: 13px;
+}
+.Join{
+    text-align: center;
+    padding: 0px;
+    color: #E5E5E5;
+font-family: Roboto;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top: -32px;
+}
