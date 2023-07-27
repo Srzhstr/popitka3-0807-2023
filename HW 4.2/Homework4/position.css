@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.FirstImg{
+    display: flex;
+    width: 750px;
+    height: 650px;
+    padding: 128.641px 101.279px 109px 101px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32.481px;
+    background-color: black;
+}
+.Text{
+    font-family: 'Lumanosimo', cursive;
+    font-size: 293px;
+    position: relative;
+    top: 361px;
+    color: white;
+    right: 7px;
+}
+.Picture{
+    width: 80px;
+    height: 60px
+}
+.ScdImage{
+    position: relative;
+    display: flex;
+    width: 750px;
+    height: 650px;
+    height: px;
+    padding: 128.641px 101.279px 109px 101px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32.481px;
+    background-color: #FFCE22;
+    left: 584px;
+    top: -128px;
+    z-index: 1;
+}
+.Photo{
+    position: relative;
+    height: 382px;
+    top: 203px;
+  }
+.SecondPhoto{
+    position: relative;
+    width: 561px;
+    top: -10px;
+}
+.Last{
+    position: absolute;
+    display: flex;
+    width: 750px;
+    height: 650px;
+    padding: 128.641px 101.279px 109px 101px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32.481px;
+    background-color: white;
+    left: 1176px;
+    top: 1037px;
+}
+.Circle{
+    position: absolute;
+    background-color: #FFCE22;
+    width: 555px;
+    height: 555px;
+    border-radius: 555px;
+    top: 53px;
+    left: 103px;
+    overflow: hidden;
+}
+.BlueSemicircle{
+    position: relative;
+    top: -2px;
+    left: 1px;
+    width: 556px;
+    height: 307px;
+}
+.LastImage{
+    position: relative;
+    top: -44px;
+    left: 80px;
+}
+
+
