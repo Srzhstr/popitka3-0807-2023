@@ -8,23 +8,23 @@ header{
     background-color: white;
    padding: 50px 0;
 }
-.first-section{
-    padding: 100px 0;
-    background-color: #FAC960;
-}
-.logo, .social{
+.LogoSocialBar{
     display: inline-block;
+    margin: 0 auto;
 }
 .logo{
-    text-align: left;
-    vertical-align: bottom;
-    margin-left: 300px;
+position: absolute;
+left: 547px;
 }
-.social{
-    display: inline-block;
-    width: 600px;
-    text-align: right;
-    vertical-align: bottom;
+.SocialFirst{
+    position: absolute;
+    left: 1319px;
+}
+.first-section{
+    position: relative;
+    top: 35px;
+    padding: 100px 0px;
+    background-color: #FAC960;
 }
 .paragrauph-1{
     color: #8A6D2F;
@@ -46,6 +46,7 @@ button{
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     margin: 1px;
+    font-family: Roboto;
 }
 input{
     color: #999;
@@ -57,6 +58,7 @@ input{
     font-family: 'Roboto', sans-serif;
     padding-left: 30px;
     margin: 1px;
+    font-family: Roboto;
 }
 .second-section{
 background-color: #F2F2F2;
@@ -67,6 +69,8 @@ font-size: 37px;
 font-style: normal;
 font-weight: 400;
 line-height: 36px;
+padding: 25px;
+
 }
 .textLorem {
     color: rgba(0, 0, 0, 0.40);
@@ -97,6 +101,7 @@ line-height: 36px;
     line-height: 30px;
 }
 .fourth-section {
+    padding: 54px;
     background-color: #FAC960;
     color: #8A6D2F;
 text-align: center;
@@ -119,6 +124,17 @@ line-height: 30px;
 
 }
 .logo-2, .social-2{
+    padding: 25px;
     text-align: center;
     background-color: #F2F2F2;
+}
+.social-2{
+    padding: 25px;
+}
+.SecInput{
+    height: auto;
+    width: 61px;
+    border-radius: 3px;
+    border: 0px;
+    text-align: center;
 }
