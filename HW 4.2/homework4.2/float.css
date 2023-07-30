@@ -3,21 +3,25 @@
 }
 body{
     margin: 0px;
+    background-color:#6c8efc ;
 }
 header{
-
+    padding: 40px;
+    display: inline-block;
 }
-.container{
-    width: 1600px;
-height: 1024px;
-flex-shrink: 0;
-background-color:#6c8efc ;
+.BaseCont{
 }
-.ContainerFirst{
+.PixelCreator{
+    color: #FAFAFA;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     position: relative;
-    top: 0px;
-    left: 75px;
-}
+    right: -110px;
+    top: -52px;
+  }
 .Rectangle{
     display: inline-block;
     position: relative;
@@ -29,9 +33,10 @@ background-color:#6c8efc ;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background: linear-gradient(90deg, #345AA4 0%, #3F009C 100%);
     box-sizing: border-box;
-    top: 53px;
+    top: -152px;
+    right: -64px;
 }
-.RectangleSec{
+.SecRectangle{
     display: inline-block;
     position: relative;
     width: 19px;
@@ -40,136 +45,83 @@ background-color:#6c8efc ;
     background: #FFF;
     top: 40px;
     right: 34px;
+    top: -165px;
+    right: -30px;
 }
-.PixelCreator{
-    color: #FAFAFA;
-    font-family: Roboto;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.HomeAndOther{
     position: relative;
-    right: -45px;
-    top: -52px;
+    top: -207px;
+    right: -900px;
+    padding-right: 43px;
 }
-.Home{
-    position: relative;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    left: 642px;
-    top: -154px;
-}
-.Contact{
+.Home, .Contact, .Portfolio, .AboutUs{
+    padding-right: 50px;
     color: #EBEBEB;
-    font-family: Roboto;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    left: 869px;
-    top: -230px;
-}
-.AboutUs{
-    color: #EBEBEB;
-    font-family: Roboto;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    left: 1129px;
-    top: -308px;
-}
-div .Button{
-    display: inline-block;
-    position: relative;
-    background-color: #345AA4, #3F009C;
-    padding: 13px;
-    width: 228px;
-    height: 77px;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background: linear-gradient(90deg, #5f38bb 0%, rgba(63, 0, 156, 0.00) 100%);
-   box-sizing: border-box;
-   top: -400px;
-   border-radius: 13px;
-   left: 1344px;
-   z-index: 2px;
-}
-.Home, .Contact, .AboutUs, .SignUp{
- position: relative;
-}
-.SignUp{
-    text-align: center;
-    padding: 0px;
-    color: #E5E5E5;
 font-family: Roboto;
-font-size: 45px;
+font-size: 30px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-top: -32px;
+text-decoration: none;
 }
-.ImgFirst{
+.SIGNUP{ 
+   position: relative;    
+color:#EBEBEB;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 13px;
+background: #6c4ef1;
+border: 1px #6c4ef1;
+width: 163px;
+height: 55px;
+}
+.Image{
     position: relative;
+    top: -234px;
+    right: -919px;
     width: 833px;
-    height: 664px;
-    left: 680px;
-    top: -336px;
+    height: 664px
 }
-.Distance{
-    position: relative;
-    top: -6px;
-    left: 74px;
-}
-.LetsBuild{
-position: relative;
-color: #FFF;
+.Text{
+    color: #FFF;
 font-family: Roboto;
-bottom: 500px;
-top: -879px;
-font-size: 40px;
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+top: -800px;
+right: -103px;
 }
-.future{
+.future {
     position: relative;
-    top: -54px;
-    font-size: 70px;
+    top: -71px;
 }
-.Hurryup{
+.HurryUP{
     position: relative;
     color: #E5E5E5;
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-top: -980px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    top: -926px;
+    right: -104px;
 }
-.Last{
-    display: inline-block;
-    position: relative;
-    background-color: #345AA4, #3F009C;
-    padding: 13px;
-    border-radius: 3px 0px 0px 3px;
+.JoinNow{
+    position: relative;    
+    color:#EBEBEB;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 13px;
+    background: #3f4beb;
+    border: 1px #4f44f5;
     width: 277px;
     height: 85px;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background: linear-gradient(90deg, #345AA4 0%, #3F009C 100%);
-    box-sizing: border-box;
-    top: -950px;
-    border-radius: 13px;
-}
-.Join{
-    text-align: center;
-    padding: 0px;
-    color: #E5E5E5;
-font-family: Roboto;
-font-size: 45px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-position: relative;
-top: -32px;
 }
