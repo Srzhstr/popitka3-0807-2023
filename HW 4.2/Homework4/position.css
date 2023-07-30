@@ -55,6 +55,7 @@ body{
     width: 561px;
     top: -10px;
 }
+
 .Last{
     position: absolute;
     display: flex;
@@ -65,9 +66,23 @@ body{
     justify-content: flex-end;
     align-items: center;
     gap: 32.481px;
-    background-color: #C4C4C4;
+    background-color: #2137FC;
     left: 1176px;
     top: 1037px;
+}
+.WhiteBlock{
+    position: absolute;
+    display: flex;
+    width: 749px;
+    height: 638px;
+    padding: 128.641px 101.279px 109px 101px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32.481px;
+    background-color: white;
+    left: 0px;
+    top: 5px;
 }
 .Circle{
     position: absolute;
@@ -91,7 +106,6 @@ body{
     top: -44px;
     left: 80px;
 }
-
 
 
 
