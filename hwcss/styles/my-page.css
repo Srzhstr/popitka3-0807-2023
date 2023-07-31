@@ -3,22 +3,24 @@
 }
 body{
     margin: 0;
+    width: 1440px;
+height: 240px;
+flex-shrink: 0;
 }
 header{
     background-color: white;
    padding: 50px 0;
 }
 .LogoSocialBar{
-    display: inline-block;
-    margin: 0 auto;
-}
+
+  }
 .logo{
-position: absolute;
-left: 547px;
-}
+    position: absolute;
+    left: 346px;
+  }
 .SocialFirst{
     position: absolute;
-    left: 1319px;
+    left: 1060px;
 }
 .first-section{
     position: relative;
@@ -50,15 +52,10 @@ button{
 }
 input{
     color: #999;
-    border: 0px;
-    border-radius: 2px 0px 0px 2px;
-    height: 50px;
-    width: 560px;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    padding-left: 30px;
+    padding-left: -1px;
     margin: 1px;
-    font-family: Roboto;
 }
 .second-section{
 background-color: #F2F2F2;
@@ -132,11 +129,12 @@ line-height: 30px;
     padding: 25px;
 }
 .SecInput{
-    height: 31px;
-    width: 102px;
-    border-radius: 3px;
-    border: 0px;
+    height: 27px;
+    width: 69px;
     text-align: center;
+    border-radius: 3px;
+border: 1px solid #758696;
+background: #FFF;
 }
 .fsoc{
     padding-right: 10px;
