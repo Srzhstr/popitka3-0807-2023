@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0px;
     background-color:#6c8efc ;
+    width: 1694px;
+    margin: auto;
 }
 header{
     padding: 40px;
