@@ -6,54 +6,46 @@ body{
     width: 1694px;
     margin: auto;
 }
-header{
-    padding: 40px;
-    display: inline-block;
+header{   
 }
-.BaseCont{
-}
+.Head {
+    display: flex;
+    width: 1765px;
+    padding-top: 40px;
+    height: 99px;
+  }
 .PixelCreator{
+    padding-left: 10px;
+    display: flex;
     color: #FAFAFA;
     font-family: Roboto;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    position: relative;
-    right: -110px;
-    top: -52px;
   }
 .Rectangle{
-    display: inline-block;
     position: relative;
+    top: 7%;
+    display: flex;
+    padding-top: 45px;
+    padding: 12px;
     background-color: #345AA4, #3F009C;
-    padding: 13px;
     border-radius: 3px 0px 0px 3px;
     width: 42px;
     height: 43px;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background: linear-gradient(90deg, #345AA4 0%, #3F009C 100%);
     box-sizing: border-box;
-    top: -152px;
-    right: -64px;
 }
 .SecRectangle{
-    display: inline-block;
-    position: relative;
     width: 19px;
     height: 20px;
     flex-shrink: 0;
     background: #FFF;
-    top: 40px;
-    right: 34px;
-    top: -165px;
-    right: -30px;
 }
 .HomeAndOther{
-    position: relative;
-    top: -207px;
-    right: -900px;
-    padding-right: 43px;
+    margin-left: 35%;
 }
 .Home, .Contact, .Portfolio, .AboutUs{
     padding-right: 50px;
@@ -64,6 +56,8 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-decoration: none;
+width: 163px;
+height: 55px;
 }
 .SIGNUP{ 
    position: relative;    
@@ -79,23 +73,27 @@ border: 1px #6c4ef1;
 width: 163px;
 height: 55px;
 }
+.Title{
+    width: 1765px;
+    height: 800px;
+    height: 664px;
+}
 .Image{
     position: relative;
-    top: -234px;
-    right: -919px;
-    width: 833px;
-    height: 664px
+    right: -882px;
+    width: 814px;
+    height: 658px;
 }
 .Text{
     color: #FFF;
-font-family: Roboto;
-font-size: 44px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-position: relative;
-top: -800px;
-right: -103px;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: -575px;
+    right: 0px;
 }
 .future {
     position: relative;
@@ -109,8 +107,7 @@ right: -103px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    top: -926px;
-    right: -104px;
+    top: -684px;
 }
 .JoinNow{
     position: relative;    
