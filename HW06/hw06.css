@@ -272,18 +272,21 @@ width: 85%;
     body{
         width: 100%;
         background: url(../HW06/img/fonst.png);
-        background-size: 100vw;
-background-repeat: no-repeat;
+        background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
     }
     header{
         width: 100%;
         padding: 10px;
-        height: 6vh;
         padding-top: 35px;
+        justify-content: center;
+        align-items: center;
     }
     section{
         padding: 13px;
-        padding-top: 75px;
+        padding-top: 21px;
     }
     .SecHead{
         height: 4vh;
@@ -308,7 +311,10 @@ background-repeat: no-repeat;
         width: 8vw;      
     }
     .SearchandEllipse{
-        width: 60%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 12vw;
     }
 .Search{
     height: 2vh;
@@ -382,12 +388,11 @@ height: 1vh;
   }
 .Popular{
     width: 17vw;
-    height: 7vh;
     font-size: 10px;
   }
 .Navigate{
-    height: 3vh;
     width: 10vw;
+    height: 2vh;
 }
 .Left{
     width: 2vw;
@@ -453,12 +458,14 @@ height: 2vh
     font-size: 16px;
 }
 }
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 926px) {
     body{
         width: 100%;
         background: url(../HW06/img/fonst.png);
-        background-size: 100vw;
-background-repeat: no-repeat;
+        background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
     }
     header{
         padding-top: 18px;
@@ -466,6 +473,191 @@ background-repeat: no-repeat;
         height: 4vh;
     }
     section{
+        padding: 42px;
+    }
+    .SecHead{
+        height: 3vh;
+        width: 20%;
+    }
+    .HeadNetflix{
+        width: 74%;
+    }
+    .FNetflix{
+        height: 5vh;
+        width: 6vw;
+    }
+    .Friday{
+        display: flex;
+    }
+    .Vector{
+        height: 3vh;
+    }
+    .Frida{
+        height: 3vh;
+        width: 9vw;
+        padding-left: 3px;
+      }  
+    .SearchandEllipse{
+        width: 60%;
+    }
+.Search{
+    height: 4vh;
+    width: 2vw;
+}
+.Ellipse{
+    height: 6vh;
+    width: 3vw;   
+}
+.Drama{
+    width: 49%;
+    height: 1vh;
+    font-size: 11px;
+}
+.Stranger{
+    width: 49%;
+    height: 4vh;
+    font-size: 27px;
+}
+.Date{
+    width: 66%;
+    height: 5vh;
+    font-size: 3vh;
+    padding-top: 32px;
+}
+.SecText{
+    width: 104%;
+    height: 1vh;
+    font-size: 15px;
+    }
+    .Stars{
+        padding-top: 67px;
+    }
+    .StarF, .StarS, .StarT, .StarFo, .StarFi{
+        height: 4vh;
+        width: 2vw;
+    }
+/*НАЧАЛО СТРИМОВ*/
+.Stream{
+    width: 12vw;
+    height: 8vh;
+}
+.Streamnow{
+    height: 14vh;
+}
+.Stream-now{
+    width: 7vw;
+}
+.StreamText{
+    font-size: 9px;
+    height: 3vh;
+    width: 7vw;
+}
+.ImagePlay{
+    width: 2vw;
+    height: 5vh;
+  }
+.SecBut{
+    width: 50%;
+}
+.Allseries{
+    width: 12vw;
+    height: 8vh;
+  }
+
+.Allbutton{
+    width: 7vw;
+    height: 2vh;
+}
+.Allepisodes{
+    font-size: 11px;
+    display: flex;
+    align-items: baseline;
+  }
+.Popular{
+    width: 17vw;
+    height: 7vh;
+    font-size: 14px;
+  }
+.Navigate{
+    height: 3vh;
+    width: 10vw;
+}
+.Left{
+    width: 2vw;
+    height: 6vh;
+}
+.LeftNavigate{
+    padding: 7px;
+}
+.ImgLeft{
+    height: 4vh;
+    width: 7vw;
+}
+.Right{
+    width: 3vw;
+    height: 6vh;
+}
+.RightNavigate{
+
+    padding: 7px
+}
+.ImgRight{
+    height: 4vh;
+    width: 7vw;
+}
+.FILMSandPEGIf{
+    width: 1vw;
+    height: 2vh;
+}
+.FilmsAndPegi{
+    width: 100vw;
+    height: 21vh;
+  }
+  .Blocks{
+    width: 58vw;
+    height: 2vh;
+}
+.Ffilm, .Sfilm, .Tfilm, .Fofilm, .Ffilm{
+    width: 18%;
+    height: 10vh;
+}
+.One, .Two, .Three, .Four, .Five{
+    width: 8vw;
+    height: 20vh;
+}
+.Popularthisweek{
+    width: 30vw;
+    height: 0vh;
+}
+.Pegi{
+    width: 12vw;
+    height: 5vh;
+}
+.PegiS{
+    width: 8vw;
+    height: 3vh;
+    font-size: 12px;
+}
+.PegiF{
+    height: 15vh;
+}
+}
+@media screen and (max-width: 810px) {
+    body{
+        width: 100%;
+        background: url(../HW06/img/fonst.png);
+        background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+    }
+    header{
+        padding-top: 18px;
+        width: 100%;
+        height: 4vh;
+    }
+    section{
+        padding: 9px;
     }
     .SecHead{
         height: 4vh;
@@ -514,6 +706,7 @@ background-repeat: no-repeat;
     width: 49%;
     height: 1vh;
     font-size: 1vh;
+    padding-top: 6px;
 }
 .SecText{
     width: 104%;
@@ -521,7 +714,7 @@ background-repeat: no-repeat;
         font-size: 1vh;
     }
     .Stars{
-        padding-top: 34px;
+        padding-top: 50px;
     }
     .StarF, .StarS, .StarT, .StarFo, .StarFi{
         height: 2vh;
@@ -529,17 +722,20 @@ background-repeat: no-repeat;
     }
 /*НАЧАЛО СТРИМОВ*/
 .Stream{
-    width: 8vw;
+    width: 10vw;
     height: 3vh;
     display: flex;
     justify-content: center;
+}
+.Streamnow{
+    height: 5vh;
 }
 .Stream-now{
     width: 5vw;
 }
 .StreamText{
-    font-size: 6px;
-    height: 1vh;
+    font-size: 9px;
+    height: 2vh;
     width: 5vw;
 }
 .ImagePlay{
@@ -548,10 +744,10 @@ width: 1vw;
 height: 1vh;
 }
 .SecBut{
-    width: 32%;
+    width: 42%;
 }
 .Allseries{
-    width: 8vw;
+    width: 10vw;
     height: 3vh;
 }
 .Allbutton{
@@ -562,7 +758,7 @@ height: 1vh;
 .Allepisodes{
     width: 5vw;
     height: 2vh;
-    font-size: 6px;
+    font-size: 9px;
     display: flex;
     align-items: center
   }
@@ -633,6 +829,9 @@ height: 2vh
     width: 10vw;
     height: 3vh;
 }
+.PegiF{
+    height: 6vh;
+}
 .PegiS{
     width: 8vw;
     height: 2vh;
@@ -640,3 +839,192 @@ height: 2vh
 }
 }
 
+@media screen and (max-width: 428px) {
+    body{
+        width: 100%;
+        background: url(../HW06/img/fonst.png);
+        background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+    }
+    header{
+        padding-top: 18px;
+        width: 100%;
+        height: 4vh;
+    }
+    section{
+        padding-top: 40px;
+    }
+    .SecHead{
+        height: 3vh;
+        width: 20%;
+    }
+    .HeadNetflix{
+        width: 80%;
+    }
+    .FNetflix{
+        display: flex;
+        width: 20vw;
+        height: 3vh;
+    }
+    .Friday{
+        display: flex;
+    }
+    .Vector{
+        height: 2vh;
+    }
+    .Frida{
+        height: 2vh;
+        width: 18vw;
+        padding: 5px;    
+    }
+    .SearchandEllipse{
+        width: 60%;
+    }
+.Search{
+    height: 2vh;
+    width: 3vw;
+}
+.Ellipse{
+    height: 3vh;
+    width: 6vw;    
+}
+.Drama{
+    width: 49%;
+    height: 1vh;
+    font-size: 1vh;
+}
+.Stranger{
+    width: 49%;
+    height: 4vh;
+    font-size: 2vh;
+}
+.Date{
+    width: 66%;
+    height: 1vh;
+    font-size: 1vh;
+}
+.SecText{
+    width: 104%;
+        height: 1vh;
+        font-size: 1vh;
+    }
+    .Stars{
+        padding-top: 45px;
+    }
+    .StarF, .StarS, .StarT, .StarFo, .StarFi{
+        height: 1vh;
+        width: 2vw;
+    }
+/*НАЧАЛО СТРИМОВ*/
+.Stream{
+    width: 12vw;
+    height: 2vh;
+}
+.Stream-now{
+    width: 7vw;
+}
+.Stream{
+    height: 2vh;
+}
+.StreamText{
+    font-size: 6px;
+    height: 2vh;
+    width: 7vw;
+}
+.ImagePlay{
+    width: 3vw;
+    height: 100%;
+  }
+.SecBut{
+    width: 50%;
+}
+.Allseries{
+    width: 11vw;
+    height: 2vh;
+  }
+
+.Allbutton{
+    width: 7vw;
+    height: 2vh;
+}
+.Allepisodes{
+    font-size: 5px;
+    display: flex;
+    align-items: baseline;
+  }
+.Popular{
+    width: 17vw;
+    height: 7vh;
+    font-size: 7px;
+  }
+.Navigate{
+    height: 3vh;
+    width: 10vw;
+}
+.Left{
+    width: 2vw;
+    height: 4vh;
+}
+.LeftNavigate{
+    width: 1vw;
+    height: 1vh;
+    padding: 4px;
+}
+.ImgLeft{
+    height: 1vh;
+    width: 2vw;
+}
+.Right{
+    width: 6vw;
+    height: 4vh;
+}
+.RightNavigate{
+    width: 1vw;
+    height: 1vh;
+    padding: 4px
+}
+.ImgRight{
+    height: 1vh;
+    width: 2vw;
+}
+.FILMSandPEGIf{
+    width: 1vw;
+    height: 2vh;
+}
+.FilmsAndPegi{
+    width: 100vw;
+    height: 21vh;
+  }
+.Blocks{
+    width: 64vw;
+}
+.Ffilm, .Sfilm, .Tfilm, .Fofilm, .Ffilm{
+    width: 18%;
+    height: 10vh;
+}
+.One, .Two, .Three, .Four, .Five{
+    width: 10vw;
+    height: 7vh;
+}
+.PopularAndButtons{
+    width: 56%;
+height: 2vh
+}
+.Popularthisweek{
+    width: 95vw;
+}
+.Pegi{
+    width: 14vw;
+    height: 2vh;
+}
+.PegiF{
+    height: 15vh;
+}
+.PegiS{
+    width: 8vw;
+    height: 2vh;
+    font-size: 12px;
+}
+}
