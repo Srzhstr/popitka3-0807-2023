@@ -5,11 +5,11 @@ body{
     margin: 0 auto;
     background-image: url(../HW06/img/fonst.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     display: flex;
     padding: 15px;
-    width: 90%;
     height: 13vh;
 }
 .Head{
@@ -34,11 +34,9 @@ header{
 }
 /* ТУТ КОНЕЦ ХЕДЕРА*/
 section{
-    padding: 3px;
     display: flex;
     flex-direction: column;
 padding-top: 15px;
-    width: 91%;
 }
 .Drama{
     font-family: 'Inter Tight', sans-serif;
@@ -201,7 +199,6 @@ align-items: center;
 .FilmsAndPegi{
     display: flex;
 padding-top: 25px;
-width: 99%;
 }
 .Blocks{
     display: flex;
