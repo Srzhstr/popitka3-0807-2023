@@ -1,0 +1,358 @@
+$main-color: rgb(0, 0, 0);
+$bg-color: #FFF;
+$decoration-body-line:rgb(179, 171, 171);
+
+
+:root{
+    --main-color:#{$main-color};
+    --bg-color:#{$bg-color};
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: var(--bg-color);
+    &::before{
+        content: "";
+        display: block;
+        height: 58%;
+        width: 9%;
+        background-color: #f2f0f0;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 32%;
+    }
+}
+header{
+    padding: 25px;
+    .headF{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 56%;
+        margin: 0 auto;
+    }
+    .Logo{
+        color: #000;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%; /* 38.4px */
+        letter-spacing: 2px;
+    }
+    nav{
+        color: #000;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 22.8px */
+        letter-spacing: 1px;
+    }
+    .Home, .Amenities, .ContactUs{
+        text-decoration: none;
+        padding: 20px;
+    }
+    .FImage{
+        position: relative;
+        top: 10px;
+        left: 37px;
+        width: 7px;
+        height: 7px;
+    }
+    input{
+        width: 4rem;
+        padding: 1px;
+    }
+
+}
+section.FirstSec{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    .Container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Content{
+        display: flex;
+        padding-left: 20px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .ContentText{
+        border-right: 1px solid black;
+    }
+    .Work{
+        color: #F2994A;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 28.8px */
+        letter-spacing: 1px;
+        margin: 0;
+    }
+    .Modern{
+        color: #000;
+        font-feature-settings: "clig" off,"liga" off;
+        font-family: "Nunito Sans",sans-serif;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        letter-spacing: 1px;
+        width: 33rem;
+    }
+    .BorderText{
+        display: block;
+        padding-top: 50px;
+        width: 21rem;
+    }
+    .lorem{
+        width: 22vw;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%; /* 28.8px */
+        letter-spacing: 1px;
+    }
+    .before{
+        &::before {
+            content: "";
+            display: block;
+            height: 1vh;
+            background: orange;
+            width: 11rem;
+            border-radius: 7px;
+          }
+        }
+    }
+    .PlayandSocial{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 85px;
+        width: 33rem;
+    }
+    .Blockwithplay{
+        display: flex;
+    }
+    .play{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 40px;
+        background-color: #3F9AB7;
+        &:hover{
+            border: 1px solid white;
+        }
+    }
+    .Watch{
+        color: #000;
+        font-feature-settings: "clig" off,"liga" off;
+        font-family: "Nunito Sans",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 1px;
+        display: flex;
+        align-self: center;
+        padding-left: 20px;
+    }
+    .SocialBut{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 7rem;
+        justify-content: space-evenly;
+    }
+    .facebook, .instagram, .twitter{
+        overflow: hidden;
+        &:hover{
+            border: 1px solid white;
+        }
+    }
+    .Fbut{
+        display: flex;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        border-radius: 40px;
+        background-color: #F2994A;
+        &:hover{
+            border: 1px solid white;
+        }
+    }
+.SecSection{
+    background-color: #3F9AB7;
+    display: flex;
+    padding: 32px 0;
+    justify-content: center;
+    margin-bottom: 45px;
+    width: 56%;
+    margin: 0 auto;
+    .First, .Second, .Third{
+        position: relative;
+        overflow: hidden;
+        border-radius: 100px;
+        &:hover{
+            border: 1px solid white;
+            box-shadow: 7px -81px 300px 25px rgba(255,255,255,1);
+        }
+    }
+    .First{
+        left: 24px;
+    }
+    .Third{
+        right: 25px;
+    }
+    .Client{
+        color: #FFF;
+        font-family: "Nunito Sans",sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 1080px) {
+    .headF{
+        width: 70%;
+        margin: 0 auto;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .FirstSec{
+        padding: 110px 0 51px;
+    }
+    .ImageRec{
+        width: 40%;
+        .ImageTh{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .Content{
+        width: 45%;
+    }
+    .SecSection{
+        width: 100%;
+    }
+    .PlayandSocial{
+        padding-top: 0px;
+width: 21rem;
+    }
+
+}
+@media (max-width:810px) {
+    .ImageRec{
+        width: 15rem;
+        height: auto;
+    }
+    .ContentText{
+        width: 20rem;
+    }
+    .Content{
+        display: flex;
+        padding-left: 20px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .Container{
+        width: 100%;
+    }
+    .picture{
+        width: 23rem;
+    }
+    .Modern{
+        font-size: 37px;
+        width: 20rem;
+    }
+    .before{
+        .before{
+            padding-top: 10px;
+            &::before {
+                width: 4rem;
+                border-radius: 7px;
+                padding-top: 5px;
+              }
+        }
+    }
+    .lorem{
+        font-size: 15px;
+        width: 20rem;
+    }
+    .PlayandSocial{
+        width: 18rem;
+    }
+}
+@media (max-device-width: 375px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+        width: 17rem;
+        font-size: 18px;
+    }
+    .FirstSec{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 3px;
+    }
+    .ContentText{
+        height: 32rem;
+        width: 20rem;
+    }
+    .Container{
+        display: flex;
+        flex-direction: column;
+        height: 37rem;
+        width: 100%;
+    }
+    .Work{
+        font-size: 23px;
+        width: 9rem;
+    }
+    .Modern{
+        font-size: 40px;
+        width: 20rem;
+    }
+    .ImageRec{
+        width: 51%;
+        height: 36rem;
+    }
+    .picture{
+        width: 20rem;
+        height: auto;
+    }
+    .Content{
+        display: flex;
+        padding-left: 4px;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+    .before{
+        padding-top: 10px;
+        &::before {
+            width: 4rem;
+            border-radius: 7px;
+            padding-top: 5px;
+          }
+    }
+    .lorem{
+        width: 9rem;
+        font-size: 13px;
+    }
+}
