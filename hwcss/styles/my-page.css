@@ -8,7 +8,7 @@ body{
 }
 header{
     background-color: white;
-   padding: 50px 0;
+    padding: 60px;
 }
 .LogoSocialBar{
 
@@ -26,6 +26,7 @@ header{
     top: 35px;
     padding: 100px 0px;
     background-color: #FAC960;
+    padding: 60px;
 }
 .paragrauph-1{
     color: #8A6D2F;
@@ -64,6 +65,7 @@ button{
     background: #FFF;
     text-align: left;
     padding-left: 24px;
+    border: none;
   }
 .second-section{
 background-color: #F2F2F2;
@@ -74,10 +76,19 @@ font-size: 37px;
 font-style: normal;
 font-weight: 400;
 line-height: 36px;
-padding: 25px;
-
+padding: 60px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.lor{
+    display: flex;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 .textLorem {
+    width: 40%;
     color: rgba(0, 0, 0, 0.40);
     text-align: center;
     font-family: Roboto;
@@ -85,6 +96,7 @@ padding: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+
 }
 .third-section{
     background-color: white;
@@ -95,6 +107,11 @@ font-size: 37px;
 font-style: normal;
 font-weight: 400;
 line-height: 36px;
+padding: 60px;
+}
+.Lore{
+    display: flex;
+    justify-content: center;
 }
 .textLorem-1{
     color: rgba(0, 0, 0, 0.40);
@@ -104,6 +121,7 @@ line-height: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    width: 40%;
 }
 .fourth-section {
     padding: 54px;
@@ -115,6 +133,7 @@ font-size: 37px;
 font-style: normal;
 font-weight: 400;
 line-height: 36px;
+padding: 60px;
 }
 .lastText {
     color: rgba(0, 0, 0, 0.40);
