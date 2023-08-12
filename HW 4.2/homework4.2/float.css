@@ -3,10 +3,10 @@
 }
 body{
     background-color:#6c8efc ;
-    width: 1694px;
-    margin: auto;
+    margin:0 auto;
 }
 header{   
+    padding: 50px;
 }
 .Head {
     display: flex;
@@ -74,14 +74,17 @@ width: 163px;
 height: 55px;
 }
 .Title{
+    padding: 50px;
     display: flex;
 flex-direction: row-reverse;
 justify-content: space-between;
 }
 .content-2{
-    padding-top: 70px;
     display: flex;
     flex-direction: column;
+}
+.content-1{
+    width: 51%;
 }
 .Text{
     color: #FFF;
