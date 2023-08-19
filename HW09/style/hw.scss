@@ -1,0 +1,612 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+div.First{
+    background-image: url(../img/fbanner.png);
+    height: 1080px;
+    background-size: cover;
+    margin: 0 auto;
+        &::after{
+        content: '';
+        height: 1080px;
+        width: 1900px;
+        position: absolute;
+        top: 0; left: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .Vintage{
+        color: #ffffff;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .age{
+        color: #F90;
+    }
+    .Services, .Branches, .About, .Contact, .Team{
+        color: #FFF;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;  
+        padding: 10px;
+    }
+    .Home{
+        color: #F90;
+        text-align: center;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .Fbut{
+        color: #F90;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background-color: transparent;
+        border-color: transparent;
+    }
+}
+section.FirstSection{
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    height: 36rem;
+    .Vin{
+        color: #FFF;
+        text-align: right;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .Hosp{
+        color: #F90;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .FText{
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+        font-family: "Philosopher",sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        line-height: normal;
+        width: 31rem;
+        padding-left: 13px;
+        height: 42%;
+    }
+    .Isadore{
+        color: #f90;
+        font-family: "Philosopher",sans-serif;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+section.SecondSection{
+    background-color: #F6FDEE;
+    padding: 40px;
+    header.OurStory{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .Our{
+        color: #000;
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .Story{
+        color: #F90;
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .Passionate{
+        color: #F90;
+        font-family: "Philosopher",sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 5px;
+    }
+    .Concepts{
+        color: #000;
+        font-family: "Philosopher",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 19rem;
+        padding-top: 5px;
+    }
+        .GridImages{
+        padding: 40px;
+        display: grid;
+        justify-items: start;
+        grid-template-columns: auto auto auto;
+    }
+    .grid-itemF{
+        grid-column-start: 1;
+    }
+    .grid-itemS{
+        grid-column-start: 1;
+    }
+    .grid-itemT{
+        grid-column-start: 2;
+        grid-row: 1/3;
+        align-items: flex-end;
+        display: grid;       
+    }
+    .Thirapicture{
+        padding: 20px;
+        padding: 20px;
+        position: relative;
+        bottom: 24px;
+    } 
+    .Distinct{
+        color: #F90;
+        font-family: "Philosopher",sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+
+    }
+    .WeDeli{
+        width: 27vw;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        padding-top: 5px;
+    }
+    .WeDeliver{
+        width: 254px;
+        height: 89px;
+        color: #000;
+        text-align: center;
+        font-family: "Philosopher",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .grid-itemFo{
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    .grid-itemFi{
+        grid-column-start: 3;
+        grid-row-start: 2;
+        display: grid;
+    }
+    .WorldClass{
+        color: #F90;
+        font-family: "Philosopher",sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 5px;
+    }
+    .OurCollection{
+        color: #000;
+        font-family: "Philosopher",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 305px;
+        padding-top: 5px;
+    }
+    nav.Readmore{
+        &::after {
+            content: "";
+            display: block;
+            height: 4px;
+            background: yellow;
+            width: 7rem;
+            border-radius: 2px;
+          }
+    }
+    .Read{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 46px;
+    }
+    .ReadMoreFirst{
+        color: #000;
+        font-family: "Philosopher",sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+}
+.ThirdSection{
+    background-color: #ffffff;
+    height: 1080px;
+
+    header.ThirdHeader{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .OurCollect{
+        color: #000;
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .collect{
+        color: #F90;
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .Container{
+        display: flex;
+        height: 630px; 
+    }
+    .OrangeLines{
+        position: absolute;
+        top: 25%;
+        z-index: -1;
+        width: 100%;
+        height: 50%;
+        padding: 200px 0px;
+        border-bottom: 5px solid #f90;
+        border-top: 5px solid #f90;
+    }
+    .Pictures{
+        width: 100%;
+        display: flex;
+        padding: 40px;
+        justify-content: space-between;
+        position: absolute;
+        z-index: 2;
+    }
+    .FirstPict{
+        padding: 40px;
+        display: flex;
+        width: 359px;
+        height: 500px;
+        background-image: url(../img/hotel11.png);
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .London{
+        color: #FFF;
+        font-family: "Philosopher",sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        &::after {
+            content: "";
+            display: block;
+            height: 4px;
+            background: yellow;
+            width: 6rem;
+            border-radius: 2px;
+          }
+    }
+    .FirstText-Text{
+        width: 303px;
+        height: 79px;
+        color: #FFF;
+        font-family: "Philosopher",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 10px;
+    }
+    .SecondPict{
+        padding: 40px;
+        display: flex;
+        width: 359px;
+        height: 500px;
+        background-image: url(../img/hotel31.png);
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Dubai{
+        color: #FFF;
+        font-family: "Philosopher",sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        &::after {
+            content: "";
+            display: block;
+            height: 4px;
+            background: yellow;
+            width: 6rem;
+            border-radius: 2px;
+          }
+    }
+    .SecondText-Text{
+        width: 303px;
+        height: 79px;
+        color: #FFF;
+        font-family: "Philosopher",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 10px;
+    }
+    .ThirdPict{
+        padding: 40px;
+        display: flex;
+        width: 359px;
+        height: 500px;
+        background-image:url(../img/hotel41.png) ;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Paries{
+        color: #FFF;
+        font-family: "Philosopher",sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        &::after {
+            content: "";
+            display: block;
+            height: 4px;
+            background: yellow;
+            width: 6rem;
+            border-radius: 2px;
+          }
+    }
+    .ThirdText-Text{
+        width: 303px;
+        height: 79px;
+        color: #FFF;
+        font-family: "Philosopher",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 10px;
+    }
+    .FourthPict{
+        padding: 40px;
+        display: flex;
+        width: 359px;
+        height: 500px;
+        background-image:url(../img/Newyourk.png) ;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .NewYork{
+        color: #FFF;
+        font-family: "Philosopher",sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        &::after {
+            content: "";
+            display: block;
+            height: 4px;
+            background: yellow;
+            width: 6rem;
+            border-radius: 2px;
+          }
+     }
+     .FourthText-Text{
+        width: 303px;
+        height: 79px;
+        color: #FFF;
+        font-family: "Philosopher",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 10px;
+    }
+}
+.FourthSection{
+    background-image: url(../img/—Pngtree—south\ korea\ jinxian\ ink\ hills_6690513\ 1.png);
+    height: 1080px;
+    background-size: cover;
+    margin: 0 auto;
+    .FourthHeader{
+        display: flex; 
+        justify-content: flex-start;   
+    }
+    .VHour{
+        color: #000;
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .Hour{
+        color: #F90;
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .PictureAndText{
+        display: flex;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+        width: 89%;
+    }
+    .Airship{
+        display: flex;
+        width: 50rem;
+        justify-content: flex-end;
+    }
+    .AreasofExpertise{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 207px;
+    }
+    .Areas{
+        color: #000;
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 20px;
+    }
+    .Expertise{
+        color: #F90;
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .Concepts{
+        width: 566px;
+        color: #000;
+        font-family: "Philosopher",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .WhatWeDo{
+        color: #000000;
+        font-family: "Philosopher",sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        &::after {
+            content: "";
+            display: block;
+            height: 4px;
+            background: yellow;
+            width: 8rem;
+            border-radius: 2px;
+          }
+    }
+    .SecBlockAreas{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+.FifthSection{
+    height: 1080px;
+    background-color: #FFF; 
+    .SecBGSection{
+
+    }
+    .FifthHeader{
+        display: flex; 
+        justify-content: flex-start; 
+    }
+    .OurDiversity{
+        color: #000;
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .OurPurpose{
+        color: #F90;
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .Photos{
+        padding: 40px;
+        display: grid;
+        grid-template-columns: ;
+        background-color: lightgreen;
+        grid-template-rows: 100px 100px;
+        justify-items: start;
+        grid-template-areas: 
+        "PhotoF PhotoF"
+        "PhotoS PhotoT"
+        "PhotoFo PhotoFo";
+    }
+    .PhotoF{
+        padding: 10px;
+        grid-column-start: ;
+        grid-column-end: ;
+        background-color: orange;
+        border: 1 px solid green;
+        grid-area: PhotoF;
+    }
+    .PhotoS{
+        padding: 20px;
+        background-color: pink;
+        border: 1 px solid black;
+        grid-area: PhotoS;
+    }
+    .PhotoT{
+        padding: 20px;
+        background-color: yellow;
+        border: 1 px solid black;
+        grid-area: PhotoT;
+    }
+    .PhotoFo{
+        padding: 20px;
+        background-color: blue;
+        border: 1 px solid black;
+    }
+}
