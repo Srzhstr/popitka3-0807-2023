@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229, 231, 236);
+}
+div{
+    padding-top: 20px;
+    text-align: left;
+}
+.Title{
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+font-size: 80px;
+}
+h2 {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+p {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 125% */
+}
+.Credits{
+    padding-top: 100px;
+}
+.img{
+    padding-top: 46px;
+}
+.Illust{
+    width: 277px;
+    height: 247px;
+}
+.Frame{
+    padding-top: 100px;
+}
