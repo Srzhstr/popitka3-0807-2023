@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    background-color: #4b3e37;
+    margin: 0 auto;
+}
+h5{
+    color: rgb(182, 180, 180);
+    margin: 0;
+}
+h1{
+    color: #8A6D2F;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 43px;
+font-style: normal;
+font-weight: 400;
+line-height: 54px; /* 125.581% */
+}
+.GeneralSection{
+    background-color: #FAC960;
+    }
+header{
+padding: 40px;
+background-color: #FFF;
+}
+.LogoAndSocial{
+    display: flex;
+    justify-content: space-around;
+}
+.FirstLogo{
+display: flex;
+}
+.SocialFirst{
+    padding-top: 10px;
+}
+.Bird{
+    padding-left: 20px;
+}
+.NoMore{
+    margin: 0;
+}
+.FirstTitle{
+padding: 40px 50px 150px 50px;
+}
+.FirstInput{
+    border-radius: 4px 2px 2px 4px;
+    background: #FFF;
+    color: #999;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px; /* 180% */
+    border: none;    
+    width: 560px;
+    text-align: left;
+    padding: 0px 10px 0px 25px;
+}
+.FBut{
+    padding-left: 10px;
+}
+.FirstButton{
+    border-radius: 0px 4px 4px 0px;
+    background: #A8863D;
+    width: 240px;
+    border: none;
+    padding: 10px;
+}
+.FirstButton:hover{
+    opacity: 0.33;
+}
+.FirstForm{
+    display: flex;
+    justify-content: center;
+}
+span{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px; /* 180% */
+}
+.SecondSection{
+    background-color: #F2F2F2;
+    padding: 60px;
+}
+h2{
+    color: rgba(0, 0, 0, 0.56);
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 37px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 97.297% */
+}
+.UnlimText{
+    width: 795px;
+    margin: 0 auto;
+}
+.Text{
+    color: rgba(0, 0, 0, 0.40);
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 130.435% */
+}
+.UnlimImage{
+    display: flex;
+    justify-content: center;
+}
+.ThirdSection{
+    background-color: #FFF;
+    padding: 50px;
+}
+.FourthSection{
+    background-color: #FAC960;
+    padding: 50px 50px 50px 80px;
+}
+.TellYourFriends{
+    color: #8A6D2F;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 37px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 97.297% */
+}
+.SecondInput{
+    display: flex;
+    justify-content: center;
+}
+.SecInput{
+    width: 61px;
+    border-radius: 3px;
+    border: 1px solid #758696;
+    background: #FFF;
+    padding-left: 23px;
+}
+footer{
+    background-color: #F2F2F2;
+    padding: 60px;
+}
+.SecondLogo{
+    display: flex;
+    justify-content: center;
+}
+.SecondSocial{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+

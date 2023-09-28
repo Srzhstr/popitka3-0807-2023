@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 1600px;
+    margin: 0 auto;
+    background-color: rgba(28, 82, 221, 0.56);
+}
+header{
+    display: flex;
+    padding: 50px;
+}
+.Rectangles{
+    display: flex;
+    width: 800px;
+}
+.FirstRec{
+    border-radius: 3px 0px 0px 3px;
+    background-color: rgb(59, 59, 161);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 42px;
+    height: 43px;
+    flex-shrink: 0;
+}
+.SecRec{
+    width: 19px;
+    height: 20px;
+    flex-shrink: 0;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 12px;
+}
+h1{
+    color: #FAFAFA;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+bottom: 40px;
+padding-left: 10px;
+font-family: 'Roboto', sans-serif;
+}
+.All{
+    display: flex;
+    display: flex;
+  width: 800px;
+  justify-content: space-between;
+}
+a {
+    color: #EBEBEB;
+    font-family: 'Roboto', sans-serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+.FBUTTON{
+    background-color: #5F55D7;
+    color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 150px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 13px;
+    border: none;
+}
+.container{
+    padding: 48px;
+    display: flex;
+}
+.paragraph{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+font-size: 70px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 551px;
+  height: auto;
+  margin: 0;
+}
+.Hurry{
+    color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0;
+}
+.SBut{
+    padding-top: 50px;
+}
+.SecButton{
+    width: 277px;
+height: 85px;
+background-color: #3124bd;
+border-radius: 13px;
+color: #E5E5E5;
+font-family: 'Roboto', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
+}
+.Picture{
+    position: relative;
+bottom: 150px;
+left: 150px;
+}
