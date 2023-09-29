@@ -1,0 +1,600 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.FirstSec{
+    background-color: white;
+    width: 1512px;
+    margin: 0 auto; 
+    padding: 25px 5px 90px 25px;
+
+}
+header{
+    display: flex;
+padding:17px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.FirstLogo{
+    color: #000;
+    /* Heading/H3 */
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 32.4px */
+}
+.Logotype{
+    margin: 0;
+}
+.Firstnav{
+    width: 716px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    /* Heading/H4 */
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 25.2px */
+}
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.FirstButton{
+    display: flex;
+padding: 10px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 1px solid var(--blue-dark, #2203E4);
+background-color: white;
+}
+.ForFirstButton{
+    color: var(--blue-dark, #2203E4);
+/* Heading/H4 */
+font-family: 'Poppins', sans-serif;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 25.2px */
+}
+.container{
+    display: flex;
+    width: 1100px;
+    height: 700px;
+    align-items: center;
+    gap: 48px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    padding: 50px;
+}
+.Content{
+    display: flex;
+    width: 897px;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color: #000;
+/* Heading/H1 */
+font-family: 'Poppins', sans-serif;
+font-size: 47px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 56.4px */
+margin: 0;
+}
+.LeftBar{
+    display: flex;
+width: 611px;
+
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+.FirstText{
+    color: #000;
+/* Copy */
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+}
+.SecAndThirdButton{
+    width: 272px;
+  display: flex;
+  justify-content: space-between;
+}
+.SecButton{
+background-color: #0062FF;
+}
+.ForSecButton{
+    color: white;
+    display: flex;
+padding: 10px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-family: 'Poppins', sans-serif;
+border: none;
+}
+.ThirdButton{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 1px solid #575757;
+padding: 10px 20px 10px 20px;
+background-color: white;
+}
+.ForThirdButton{
+    color: var(--ink-light, #575757);
+/* Copy */
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+}
+.RightBar{
+    display: flex;
+}
+.PhoneScreen{
+    z-index: 3;
+    position: relative;
+    width: 183.225px;
+    height: 365.498px;
+    left: 11px;
+}
+.BackPhone{
+
+}
+
+.BottomBar{
+
+}
+.BarText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.SecondText{
+    width: 611px;
+    color: var(--ink-light, #575757);
+text-align: center;
+
+/* Copy */
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+text-align: center;
+  margin: 0 auto;
+}
+.BarSocial{
+    padding-left: 165px;
+    margin: 14px;
+}
+.MarkHeaders{
+    display: flex;
+}
+.AboutMark{
+    padding-left: 23px;
+    width: 643px;
+}
+h4{
+    color: var(--ink-default, #000);
+/* Heading/H3 */
+font-family: 'Poppins', sans-serif;
+font-size: 27px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 32.4px */
+margin: 0;
+}
+.GraphicDesign{
+    color: var(--ink-light, #575757);
+/* Heading/H4 */
+font-family: 'Poppins', sans-serif;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 25.2px */
+margin: 0;
+}
+.ThirdText{
+    color: var(--ink-light, #575757);
+    margin: 4px;
+
+/* Copy */
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+}
+.SocialMark{
+    display: flex;
+    width: 102px;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.Names{
+}
+.Gregory{
+    color: var(--accent-middle, #DEA405);
+/* Heading/H4 */
+font-family: 'Poppins', sans-serif;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 25.2px */
+margin: 0;
+}
+.GregoryP{
+    color: var(--accent-default, #FFBE0B);
+/* Copy */
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+margin: 0;
+}
+.MarkH{
+    color: #000;
+/* Heading/H3 */
+font-family: 'Poppins', sans-serif;
+font-size: 27px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 32.4px */
+margin: 0;
+}
+.MarkHeader{
+    display: flex;
+}
+.ChevronLeft{
+    height: 147px;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    padding-left: 19px;
+}
+.SecondSec{
+    background-color: var(--blue-middle, #0062FF);
+padding: 50px;
+}
+.SecHeader{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.ForWho{
+    color: #FFF;
+text-align: center;
+/* Heading/H2 */
+font-family: 'Poppins', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 43.2px */
+}
+.FourthText{
+    width: 611px;
+    color: #FFF;
+text-align: center;
+/* Copy */
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+padding-top: 10px;
+}
+.GeneralContent{
+    display: flex;
+  justify-content: center;
+}
+.LeftContent{
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+}
+.Students{
+    display: flex;
+    width: 576px;
+    padding: 25px;
+}
+.ForStudents{
+    color: #FFF;
+    /* Heading/H3 */
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 32.4px */
+    margin: 0;
+}
+.TextForStudents{
+    margin: 0;
+    color: #FFF;
+/* Copy */
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+padding-top: 10px;
+}
+.StudentsText{
+    display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.FourBut{
+    display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.FourthButton{
+    display: flex;
+padding: 10px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 1px solid var(--blue-dark, #2203E4);
+background: #FFF;
+}
+.ForFourthButton{
+    color: var(--blue-dark, #2203E4);
+/* Copy */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+}
+.ThirdSection{
+    background-color: white;
+    padding: 50px;
+}
+.ThirdHeader{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.ThirdContainer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.CheckD{
+    color: black;
+text-align: center;
+/* Heading/H2 */
+font-family: 'Poppins', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 43.2px */
+margin: 0;
+}
+.ThirdHeadText{
+    width: 611px;
+    color: var(--ink-light, #575757);
+text-align: center;
+/* Copy */
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+  margin: 0 ;
+  padding-top: 10px;
+}
+.LeftPart{
+    padding-right: 25px;
+
+}
+.ForAllThirdSec{
+    color: #000;
+/* Heading/H4 */
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 25.2px */
+margin: 0;
+text-align: center;
+}
+.SectionImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 444px;
+height: 296px;
+flex-shrink: 0;
+    background-image: url(../img/14.png);
+}
+.PlayVector{
+    width: 50px;
+height: 57px;
+flex-shrink: 0;
+font-size: 50px;
+color: #3A86FF;
+}
+.FourthSection{
+    background-color: #FFBE0B;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ForSection-4{
+    background-color: white;
+    display: flex;
+    padding: 50px;
+    width: 755px;
+align-items: center;
+}
+.AllAboutJones{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.JonesDavid{
+    margin: 0;
+}
+.JonesWithStars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Stars{
+    font-size: 26px;
+}
+.Ballon{
+    display: flex;
+    align-items: center;
+}
+.Cloud{
+    width: 47px;
+    height: 41px;
+    font-size: 47px;
+    color: #3A86FF;
+}
+.JonesDavidText{
+    width: 611px;
+    color: var(--ink-light, #575757);
+/* Copy */
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+  margin: 0 ;
+  padding-top: 10px;
+}
+.CEOJones{
+    color: #000;
+/* Heading/H4 */
+font-family: Poppins;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 25.2px */
+margin: 0;
+}
+.LastSection{
+    background-color: white;
+    padding: 50px;
+}
+.LastSectionBlock{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1100px;
+}
+.MyProduct{
+    display: flex;
+    align-items: center;
+}
+.Reviews{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 20px;
+}
+.LastProductBlock{
+    display: flex;
+    flex-direction: column;
+}
+.TitleText{
+    color: var(--ink-light, #575757);
+/* Copy */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+}
+.MyProductText{
+
+}
+.ForLastTitle{
+    color: var(--blue-dark, #2203E4);
+/* Heading/H2 */
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 43.2px */
+}
+.DiscountQuestion{
+    color: #000;
+/* Heading/H3 */
+font-family: Poppins;
+font-size: 27px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 32.4px */
+}
+.Discount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.DiscountForm{
+
+    text-align: center;
+    width: 508px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 12px;
+background-color: rgba(58, 134, 255, 0.20);;
+text-align: left;
+padding: 20px;
+}
+.DiscountInput{
+    color: var(--blue-dark, #2203E4);
+    /* Copy */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    border: none;
+    background-color:rgba(217, 228, 245, 0.2);
+}
+.LastButton{
+    display: flex;
+width: 508px;
+padding: 10px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: #0062FF;
+border: none;
+}
+.ForLastButton{
+    padding-top: 10px;
+}
