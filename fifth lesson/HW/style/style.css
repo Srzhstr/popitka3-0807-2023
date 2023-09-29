@@ -30,11 +30,14 @@ background-color: #FFF;
 
 }
 .FirstLogo{
-display: flex;
-width: 600px;
+    display: flex;
+    width: 150px;
+    justify-content: flex-end;
 }
 .SocialFirst{
-    padding-top: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
 }
 .Bird{
     padding-left: 20px;
@@ -164,6 +167,7 @@ footer{
     margin: 0 auto;
     padding-top: 20px;
 }
+
 
 
 
