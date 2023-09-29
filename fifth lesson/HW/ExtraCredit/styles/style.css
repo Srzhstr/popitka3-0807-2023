@@ -5,14 +5,17 @@ body{
     width: 1600px;
     margin: 0 auto;
     background-color: rgba(28, 82, 221, 0.56);
+    font-family: 'Roboto', sans-serif;
 }
 header{
     display: flex;
     padding: 50px;
+    justify-content: space-between;
 }
 .Rectangles{
     display: flex;
-    width: 800px;
+    width: 345px;
+    align-items: center;
 }
 .FirstRec{
     border-radius: 3px 0px 0px 3px;
@@ -21,15 +24,15 @@ header{
     width: 42px;
     height: 43px;
     flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .SecRec{
     width: 19px;
     height: 20px;
     flex-shrink: 0;
     background-color: white;
-    position: relative;
-    top: 10px;
-    left: 12px;
 }
 h1{
     color: #FAFAFA;
@@ -37,10 +40,9 @@ font-size: 48px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-position: relative;
-bottom: 40px;
 padding-left: 10px;
 font-family: 'Roboto', sans-serif;
+margin: 0;
 }
 .All{
     display: flex;
@@ -72,18 +74,22 @@ text-decoration: none;
     border: none;
 }
 .container{
-    padding: 48px;
+padding: 80px 20px 0px 20px;;
     display: flex;
+    justify-content: space-between;
+}
+.LeftContainer{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .paragraph{
     color: #FFF;
-    font-family: 'Roboto', sans-serif;
 font-size: 70px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
 width: 551px;
-  height: auto;
   margin: 0;
 }
 .Hurry{
@@ -112,7 +118,4 @@ line-height: normal;
 border: none;
 }
 .Picture{
-    position: relative;
-bottom: 150px;
-left: 150px;
 }
