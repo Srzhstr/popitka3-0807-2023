@@ -191,6 +191,9 @@ text-align: center;
     padding-left: 165px;
     margin: 14px;
 }
+.ProfileMark{
+
+}
 .MarkHeaders{
     display: flex;
 }
@@ -312,6 +315,8 @@ padding-top: 10px;
     display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1190px;
 }
 .LeftContent{
     display: flex;
