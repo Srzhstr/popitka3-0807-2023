@@ -103,6 +103,9 @@ line-height: normal;
 .Star, .FirstStar{
     font-size: 25px;
 }
+button:hover{
+    opacity: 0.50;
+}
 .Buttons{
     display: flex;
     padding-top: 40px;
