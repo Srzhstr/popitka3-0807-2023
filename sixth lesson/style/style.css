@@ -57,7 +57,7 @@ padding-left: 10px;
 padding-right: 20px;
 }
 .First{
-    width: 52%;
+    width: 57%;
 flex-shrink: 0;
 padding-top: 80px;
 }
@@ -145,7 +145,6 @@ font-weight: 500;
 line-height: 141.523%; /* 31.135px */
 }
 .PopularThisWeek{
-    width: 92%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -181,7 +180,7 @@ background-color: rgba(28,28,28,0);
     justify-content: space-between;
 }
 .Posters{
-    width: 63%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     padding-left: 108px;
