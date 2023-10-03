@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arvo', serif;
+    font-family: 'Inter', sans-serif;
+    background-image: url(../img/Fon.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center center;
+    background-size: cover;
+    min-height: 1117px;
+    line-height: normal;
+}
+section{
+    margin: 0 auto;
+    width: 88.2%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 99.5%;
+    padding-top: 25px;
+}
+.NetFlixAndFriday{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Lane{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    padding-left: 10px;
+}
+.Friday{
+    color: #C8C8C8;
+    font-family: 'Arvo', serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 10px;
+}
+.Netflix{
+    width: 156px;
+    height: 48.326px;
+    flex-shrink: 0;
+}
+.SearchAndProfile{
+}
+.Search{
+padding-right: 20px;
+}
+.First{
+    width: 54%;
+flex-shrink: 0;
+padding-top: 80px;
+}
+.Genre{
+color: #FFF;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0;
+}
+.Name{
+color: #FFF;
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 3.52px;
+margin: 0;
+}
+.Director{
+    color: #FFF;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0;
+}
+span{
+    color: #A7A6A6;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Star{
+    padding-left: 10px;
+}
+.Star, .FirstStar{
+    font-size: 25px;
+}
+.Buttons{
+    display: flex;
+    padding-top: 40px;
+    width: 57%;
+    justify-content: space-between;
+}
+.FirstButton{
+    border-radius: 10px;
+    background-color: #D40D1F;
+    padding: 10px 30px;
+    border: none;
+}
+.TextForFirstButton{
+    color: #FFF;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 141.523%; /* 31.135px */
+}
+.play{
+font-size: 22px;
+}
+.SecondButton{
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    background-color: rgba(28,28,28,0);
+    border: 3px solid white;
+}
+.TextForSecondButton{
+color: #FFF;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 141.523%; /* 31.135px */
+}
+.PopularThisWeek{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.Popular{
+    color: #FFF;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: 144.523%; /* 31.795px */
+letter-spacing: 2.97px;
+}
+.Navigat{
+    font-size: 18px;
+}
+.Navigate{
+    width: 100px;
+    display: flex;
+  justify-content: space-between;
+}
+.LeftNav, .RightNav{
+    width: 34.85px;
+height: 34.85px;
+flex-shrink: 0;
+border-radius: 25px;
+background-color: rgba(28,28,28,0);
+}
+.PostersAndPEGI{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.Posters{
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 108px;
+}
+.PEGI{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    flex-direction: row-reverse;
+}
+.RedPEGI{
+    background-color: #D40D1F;
+    width: 15%;
+    height: 51px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: self-end;
+}
+.GrayPegi{
+    background-color: gray;
+    width: 85%;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    
+}
+.PegiAge{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 141.523%; /* 33.965px */
+}
