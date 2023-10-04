@@ -101,6 +101,8 @@ margin: 0;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    line-height: 0.75;
+    display: inline-block;
 }
 span{
     color: #A7A6A6;
@@ -120,10 +122,9 @@ button:hover{
     opacity: 0.50;
 }
 .Buttons{
-    display: flex;
     padding-top: 40px;
     width: 65%;
-    justify-content: space-between;
+    display: flex;
 }
 .FirstButton{
     border-radius: 10px;
@@ -143,9 +144,12 @@ line-height: 141.523%; /* 31.135px */
 font-size: 22px;
 padding-left: 10px;
 }
+.SecButton{
+    padding-left: 35px;
+}
 .SecondButton{
     border-radius: 10px;
-    padding: 12px 55px;
+    padding: 10px 55px;
     border: none;
     background-color: rgba(28,28,28,0);
     border: 2px solid white;
