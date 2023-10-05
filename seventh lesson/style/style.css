@@ -298,6 +298,12 @@ line-height: normal;
     .Content {
         padding-left: 50px;
       }
+      .Container{
+        width: 91%;
+      }
+      header{
+        width: 91%;
+      }
 }
 @media screen and (max-width: 896px){
     header{
@@ -318,7 +324,7 @@ line-height: normal;
         font-size: 17px;
     }
     .Container{
-        width: 85%;
+        width: 94%;
     }
     .Text-1{
         font-size: 12px;
@@ -337,12 +343,24 @@ line-height: normal;
         justify-content: center;
     }
     }
+    @media screen and (max-width: 812px){
+        header{
+            width: 94%;
+        }
+        .Container{
+            width: 94%;
+        }
+    }
     @media screen and (max-width: 667px){
         header{
             flex-direction: column;
+            row-gap: 40px;
         }
         .Container{
             flex-direction: column;
+        }
+        .SecondText{
+            padding-top: 32px;
         }
     }
     @media screen and (max-device-width: 375px) {
