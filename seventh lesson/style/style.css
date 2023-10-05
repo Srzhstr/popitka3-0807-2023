@@ -386,6 +386,9 @@ line-height: normal;
         .Glass{
             padding-left: 10px;
           }
+        .Image{
+            width: 60%;
+          }
     }
     @media screen and (max-device-width: 375px) {
         header{
