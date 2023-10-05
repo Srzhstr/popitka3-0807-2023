@@ -307,11 +307,17 @@ line-height: normal;
       header{
         width: 91%;
       }
+      .Glass{
+        padding-left: 10px;
+      }
 }
 @media screen and (max-width: 896px){
     header{
         width: 72%;
     }
+    .Glass{
+        padding-left: 10px;
+      }
 }
 @media screen and (max-width: 810px) {
     header{
@@ -345,6 +351,9 @@ line-height: normal;
       .All{
         justify-content: center;
     }
+    .Glass{
+        padding-left: 10px;
+      }
     }
     @media screen and (max-width: 812px){
         header{
@@ -353,6 +362,9 @@ line-height: normal;
         .Container{
             width: 94%;
         }
+        .Glass{
+            padding-left: 10px;
+          }
     }
     @media screen and (max-width: 667px){
         header{
@@ -365,6 +377,9 @@ line-height: normal;
         .SecondText{
             padding-top: 32px;
         }
+        .Glass{
+            padding-left: 10px;
+          }
     }
     @media screen and (max-device-width: 375px) {
         header{
@@ -393,5 +408,8 @@ line-height: normal;
         .SecondText{
             padding-top: 30px;
         }
+        .Glass{
+            padding-left: 10px;
+          }
     
     }
