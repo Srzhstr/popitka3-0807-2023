@@ -104,11 +104,7 @@ text-align: center;
 section{
     margin: 0 auto;
 }
-.Picture{
-    width: 411px;
-    height: 533px;
-    flex-shrink: 0;
-}
+
 .Container{
     display: flex;
     align-items: center;
@@ -116,6 +112,13 @@ section{
     padding-top: 50px;
     margin: 0 auto;
     padding-bottom: 30px;
+}
+.Image{
+    width: 100%;
+    height: auto;
+}
+.Picture{
+    width: 100%;
 }
 .Content{
     padding-left: 100px;
