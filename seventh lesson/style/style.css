@@ -41,17 +41,28 @@ letter-spacing: 2px;
     display: flex;
     align-items: center;
 }
-.Home::after, .Navigation::after{
+.Navigation::after{
     content: "";
     display: block;
     height: 6px;
     background: orange;
     width: 6px;
     border-radius: 100px;
-    margin: 5px auto 0 auto;
-    position: relative;
+    margin: 5px 50px 0 50px;
+    position: absolute;
     opacity: 0;
     
+}
+.Home::after{
+    content: "";
+    display: block;
+    height: 6px;
+    background: orange;
+    width: 6px;
+    border-radius: 100px;
+    margin: 5px 25px 0 25px;
+    position: absolute;
+    opacity: 0;
 }
 .Home:hover::after, .Navigation:hover::after{
     opacity: 1;
