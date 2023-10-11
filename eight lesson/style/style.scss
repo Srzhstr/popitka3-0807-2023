@@ -1,0 +1,295 @@
+$mainColor:#E0ADC5;
+$mainMargin: 0 auto;
+$mainPadding: 50px;
+$headerColor: white;
+$mainFont: 'Poppins', sans-serif;
+
+*{
+    box-sizing: border-box;
+}
+html, body{
+    font-size: 16px;
+}
+body{
+    margin: $mainMargin;
+    background-color: $mainColor;
+}
+header{
+    background-color: $headerColor;
+    display: flex;
+    width: 100%;
+    padding: 25px 90px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    .NavLogo{
+        display: flex;
+        align-items: center;
+        width: 85%;
+        justify-content: space-around;
+    }
+    .Logo{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .Navigation{
+        display: flex;
+        width: 56%;
+        justify-content: space-between;
+        a{
+            color: #000;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.175rem;
+            font-family: $mainFont;
+            text-decoration: none;
+        }
+        .ProductsHover{
+            &::after{
+                content: "";
+                display: block;
+                width: 6rem;
+                height: 0.25rem;
+                flex-shrink: 0;
+                background: #000;
+                border-radius: 100px;
+                margin: 5px auto 0 auto;
+                position: absolute;
+                opacity: 0;
+            }
+            &:hover::after{
+                opacity: 1;
+            }
+        }
+        .AestheticLinesHover{
+            &::after{
+                content: "";
+                display: block;
+                width: 9.60rem;
+                height: 0.25rem;
+                flex-shrink: 0;
+                background: #000;
+                border-radius: 100px;
+                margin: 5px auto 0 auto;
+                position: absolute;
+                opacity: 0;
+            }
+            &:hover::after{
+                opacity: 1;
+            }
+        }
+        .InspirationHover{
+            &::after{
+                content: "";
+                display: block;
+                width: 7.35rem;
+                height: 0.25rem;
+                flex-shrink: 0;
+                background: #000;
+                border-radius: 100px;
+                margin: 5px auto 0 auto;
+                position: absolute;
+                opacity: 0;
+            }
+            &:hover::after{
+                opacity: 1;
+            }
+        }
+
+    }
+    .Icons{
+        display: flex;
+        width: 7%;
+        justify-content: space-around;
+        a{
+            font-size:20px;
+        }
+    }
+}
+section{
+    display: flex;
+    align-items: center;
+    margin: 70px auto;
+    .PINK{
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        margin: 50px auto;
+        position: relative;
+        z-index: 1;
+        .ForPinkDiv{
+            width: 32.01288rem;
+            height: 7.5225rem;
+            transform: rotate(-90deg);
+            flex-shrink: 0;
+        }
+    }
+    .Decoration{
+        display: flex;
+        align-items: center;
+        padding-left: 39px;
+    }
+    .Container{
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+
+    
+        .LeftPart{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            width: 35%;
+        }
+        h1{
+            color: #FFF;
+            font-family: $mainFont;
+            font-size: 9.375rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 9.375rem; /* 100% */
+            margin: 0;
+        }
+        .Text{
+            color: #FFF;
+            font-family: $mainFont;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.5rem; /* 150% */
+        }
+        .Buttons{
+            display: flex;
+            width: 83%;
+            justify-content: space-between;
+            margin-top: 35px;
+        }
+        .ShopNowButton{
+            display: flex;
+            width: 17rem;
+            height: 3.25rem;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            background: #000;
+            border: none;
+        }
+        span{
+            color: #FFF;
+            font-family: $mainFont;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.5rem; /* 150% */
+            text-transform: uppercase;
+        }
+        .PlayButton{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            background-color: $mainColor;
+            border: none;
+        }
+        .WatchVideo{
+            color: #000;
+            font-family: $mainFont;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.5rem; /* 150% */
+            text-transform: uppercase;
+            margin-left: 10px;
+        }
+        .CirclePlayButton{
+            font-size: 1.75rem;
+        }
+        .ForPlayButton{
+            border-radius: 100px;
+            width: 3.125rem;
+            height: 3.125rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+        }
+        .Pictures{
+            display: flex;
+            margin-top: 40px;
+        }
+        .ProductsImage-1, .ProductsImage-2, .ProductsImage-3, .ProductsImage-4{
+            width: 5rem;
+            height: 5rem;
+            flex-shrink: 0;
+            border-radius: 0.4375rem;
+            border: 1px solid #FFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+                background-color: white;
+            }
+        }
+        .ProductsImage-2, .ProductsImage-3, .ProductsImage-4{
+            margin-left: 20px;
+        }
+        .ProductsImage-3{
+            background-color: white;
+        }
+        .RightPart{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+@media screen and (max-device-width: 375px){
+    header{
+        padding: 20px;
+        align-items: normal;
+        justify-content: space-around;
+    }
+    .Logo{
+        align-items: center;
+    }
+    .Icons{
+        width: 35%;
+        a{
+            margin-right: 10px;
+        }
+    }
+    .ProductsHover, .InspirationHover, .AestheticLinesHover{
+        display: none;
+    }
+    .NavLogo{
+        display: flex;
+        width: 56%;
+        justify-content: space-evenly;
+        align-items: normal;
+        flex-direction: row-reverse;
+    }
+    .Navigation{
+        background-image: url(../img/media1.png);
+        background-repeat: no-repeat;
+        width: 10%;
+    }
+    .section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }  
+    .PINK{
+        display: flex;
+        flex-direction: column;
+    }
+    .Pictures{
+        display: none;
+    }
+}
+
+
+
+
