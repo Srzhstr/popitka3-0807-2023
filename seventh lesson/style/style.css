@@ -249,10 +249,13 @@ padding-left: 15px;
   
   }
 .TwitterAndOther{
-    font-size: 30px;
+    font-size: 18px;
     text-align: center;
     width: 34px;
     height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Social-item{
     padding: 10px 0px 10px 0px;
@@ -266,8 +269,6 @@ padding-left: 15px;
 .Social-item:hover{
     background-color: orange;
     border-radius: 100px;
-    width: 40px;
-    height: 40px;
 }
 svg:hover{
     fill: white;
