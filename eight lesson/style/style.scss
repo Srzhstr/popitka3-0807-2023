@@ -26,17 +26,18 @@ header{
         display: flex;
         align-items: center;
         width: 85%;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .Logo{
+        width: 15%;
         display: flex;
         justify-content: flex-end;
     }
 
     .Navigation{
         display: flex;
-        width: 56%;
-        justify-content: space-between;
+        width: 74%;
+        justify-content: space-around;
         a{
             color: #000;
             font-size: 0.875rem;
@@ -246,50 +247,90 @@ section{
         }
     }
 }
+
 @media screen and (max-device-width: 375px){
     header{
         padding: 20px;
         align-items: normal;
-        justify-content: space-around;
+        justify-content: space-between;
+        .ProductsHover, .InspirationHover, .AestheticLinesHover{
+            display: none;
+        }
+        .Logo{
+            align-items: center;
+            order: -4;
+        }
+        .Navigation{
+            background-image: url(../img/media1.png);
+            background-repeat: no-repeat;
+            width: 6%;
+            margin-top: 5px;
+            order: -5;
+        }
+        .Search{
+            order: -5;
+            margin-right: 31px;
+        }
+        .Profile{
+            order: -2;
+        }
+        .Bag{
+            order: -2;
+        }
+
     }
-    .Logo{
-        align-items: center;
-    }
-    .Icons{
-        width: 35%;
-        a{
-            margin-right: 10px;
+    section{
+        flex-direction: column;
+        margin: 17px auto;
+        .PINK{
+            flex-direction: column;
+            align-items: center;
+            margin-top: 374px;
+            svg{
+                width: 10rem;
+                height: 13rem;
+                position: relative;
+                left: 84px;
+            }
+        }
+        .Decoration{
+            rotate: -90deg;
+            svg{
+                width: 0.625rem;
+                height: 4rem;
+                flex-shrink: 0;
+            }
+        }
+        .Container{
+            flex-direction: column;
+            .LeftPart{
+                width: 88%;
+                h1{
+                    font-size: 5.375rem;
+                }
+                .Buttons{
+                    width: 98%;
+                }
+                .WatchVideo{
+                    display: none;
+                }
+                .ShopNowButton{
+                    width: 13rem;
+                }
+                .Pictures{
+                    display: none;
+                }
+            }
+            .RightPart{
+                margin-top: 24px;
+                img{
+                    width: 10.28175rem;
+                    height: 13.25rem;
+                    flex-shrink: 0;
+                }
+            }
         }
     }
-    .ProductsHover, .InspirationHover, .AestheticLinesHover{
-        display: none;
-    }
-    .NavLogo{
-        display: flex;
-        width: 56%;
-        justify-content: space-evenly;
-        align-items: normal;
-        flex-direction: row-reverse;
-    }
-    .Navigation{
-        background-image: url(../img/media1.png);
-        background-repeat: no-repeat;
-        width: 10%;
-    }
-    .section{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }  
-    .PINK{
-        display: flex;
-        flex-direction: column;
-    }
-    .Pictures{
-        display: none;
-    }
 }
-
-
 
 
