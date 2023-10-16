@@ -19,25 +19,18 @@ header{
     display: flex;
     width: 100%;
     padding: 25px 90px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
-    .NavLogo{
-        display: flex;
-        align-items: center;
-        width: 85%;
-        justify-content: space-evenly;
-    }
     .Logo{
-        width: 15%;
+        width: 11%;
         display: flex;
-        justify-content: flex-end;
     }
 
     .Navigation{
         display: flex;
-        width: 74%;
-        justify-content: space-around;
+        width: 50%;
+        justify-content: space-evenly;
         a{
             color: #000;
             font-size: 0.875rem;
@@ -47,6 +40,12 @@ header{
             letter-spacing: 0.175rem;
             font-family: $mainFont;
             text-decoration: none;
+        }
+        .MenuForMobile{
+            display: none;
+        }
+        .SearchForMobile{
+            display: none;
         }
         .ProductsHover{
             &::after{
@@ -60,6 +59,7 @@ header{
                 margin: 5px auto 0 auto;
                 position: absolute;
                 opacity: 0;
+                margin-top: 23px;
             }
             &:hover::after{
                 opacity: 1;
@@ -77,6 +77,7 @@ header{
                 margin: 5px auto 0 auto;
                 position: absolute;
                 opacity: 0;
+                margin-top: 23px;
             }
             &:hover::after{
                 opacity: 1;
@@ -94,6 +95,7 @@ header{
                 margin: 5px auto 0 auto;
                 position: absolute;
                 opacity: 0;
+                margin-top: 23px;
             }
             &:hover::after{
                 opacity: 1;
@@ -101,72 +103,53 @@ header{
         }
 
     }
-    .Icons{
-        display: flex;
+    .Links{
         width: 7%;
+        display: flex;
         justify-content: space-around;
-        a{
-            font-size:20px;
+        .Search, .Profile, .Bag{
+            font-size: 17px;
         }
     }
+
 }
 section{
-    display: flex;
-    align-items: center;
-    margin: 70px auto;
-    .PINK{
-        width: 90%;
-        display: flex;
-        justify-content: flex-end;
-        margin: 50px auto;
-        position: relative;
-        z-index: 1;
-        .ForPinkDiv{
-            width: 32.01288rem;
-            height: 7.5225rem;
-            transform: rotate(-90deg);
-            flex-shrink: 0;
-        }
-    }
-    .Decoration{
-        display: flex;
-        align-items: center;
-        padding-left: 39px;
-    }
+    padding: 50px;
     .Container{
-        position: absolute;
-        z-index: 2;
         display: flex;
-        width: 90%;
+        justify-content: space-around;
+        align-items: center;
         margin: 0 auto;
-
-    
+        width: 88%;
         .LeftPart{
+            width: 49%;
             display: flex;
             flex-direction: column;
-            margin: 0 auto;
-            width: 35%;
-        }
-        h1{
-            color: #FFF;
-            font-family: $mainFont;
-            font-size: 9.375rem;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 9.375rem; /* 100% */
-            margin: 0;
+}
         }
         .Text{
-            color: #FFF;
-            font-family: $mainFont;
-            font-size: 1rem;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 1.5rem; /* 150% */
+            width: 72%;
+            h1{
+                color: #FFF;
+                font-family: $mainFont;
+                font-size: 9.375rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 9.375rem; /* 100% */
+                margin: 0;
+            }
+            p{
+                color: #FFF;
+                font-family: $mainFont;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1.5rem; /* 150% */
+            }
         }
         .Buttons{
             display: flex;
-            width: 83%;
+            width: 60%;
             justify-content: space-between;
             margin-top: 35px;
         }
@@ -221,6 +204,7 @@ section{
         .Pictures{
             display: flex;
             margin-top: 40px;
+            width: 60%;
         }
         .ProductsImage-1, .ProductsImage-2, .ProductsImage-3, .ProductsImage-4{
             width: 5rem;
@@ -242,88 +226,97 @@ section{
             background-color: white;
         }
         .RightPart{
-            display: flex;
-            align-items: center;
+            .PositionPicture{
+            }
+            .PINK{
+                width: 90%;
+                display: flex;
+                justify-content: flex-end;
+                margin: 50px auto;
+                position: relative;
+                z-index: 1;
+                .ForPinkDiv{
+                    width: 32.01288rem;
+                    height: 7.5225rem;
+                    transform: rotate(-90deg);
+                    flex-shrink: 0;
+                }
+            }
+            .Decoration{
+                display: flex;
+                align-items: center;
+                padding-left: 50px;
+            }
         }
     }
-}
 
 @media screen and (max-device-width: 375px){
     header{
-        padding: 20px;
-        align-items: normal;
-        justify-content: space-between;
-        .ProductsHover, .InspirationHover, .AestheticLinesHover{
-            display: none;
-        }
         .Logo{
-            align-items: center;
-            order: -4;
+            width: 34%;
+            order: 1;
         }
+        padding: 25px;
         .Navigation{
-            background-image: url(../img/media1.png);
-            background-repeat: no-repeat;
-            width: 6%;
-            margin-top: 5px;
-            order: -5;
+            width: 16%;
+            .ProductsHover, .InspirationHover, .AestheticLinesHover{
+                display: none;
+            }
+            .MenuForMobile, .SearchForMobile{
+                display: block;
+                font-size: 17px;
+            }
         }
-        .Search{
-            order: -5;
-            margin-right: 31px;
+        .Links{
+            order: 2;
+            width: 22%;
+            flex-direction: row-reverse;
+            .Search{
+                display: none;
+            }
         }
-        .Profile{
-            order: -2;
-        }
-        .Bag{
-            order: -2;
-        }
-
     }
     section{
-        flex-direction: column;
-        margin: 17px auto;
-        .PINK{
-            flex-direction: column;
-            align-items: center;
-            margin-top: 374px;
-            svg{
-                width: 10rem;
-                height: 13rem;
-                position: relative;
-                left: 84px;
-            }
-        }
-        .Decoration{
-            rotate: -90deg;
-            svg{
-                width: 0.625rem;
-                height: 4rem;
-                flex-shrink: 0;
-            }
-        }
+        padding: 25px;
         .Container{
             flex-direction: column;
+            width: 100%;
             .LeftPart{
-                width: 88%;
-                h1{
-                    font-size: 5.375rem;
+                width: 100%;
+                .Text{
+                    width: 100%;
+                    h1{
+                        font-size: 5.375rem;
+                    }
+                    p{
+                        text-align: center;
+                    }
                 }
                 .Buttons{
-                    width: 98%;
-                }
-                .WatchVideo{
-                    display: none;
-                }
-                .ShopNowButton{
-                    width: 13rem;
+                    justify-content: space-around;
+                    width: 100%;
+                    .ShopNowButton{
+                        width: 12rem;
+                    }
+                    .PlayButton{
+                        span{
+                            display: none;
+                        }
+                    }
                 }
                 .Pictures{
                     display: none;
                 }
             }
             .RightPart{
-                margin-top: 24px;
-                img{
+                .PINK{
+                    justify-content: flex-start;
+                    svg{
+                        width: 3.522rem;
+                        height: 13.939rem;
+                    }
+                }
+                .PositionPicture{
                     width: 10.28175rem;
                     height: 13.25rem;
                     flex-shrink: 0;
@@ -332,5 +325,4 @@ section{
         }
     }
 }
-
 
