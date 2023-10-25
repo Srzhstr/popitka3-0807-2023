@@ -4,9 +4,9 @@ let UserAge = Number(prompt('Type your age'));
 let GeneralAge = 18; 
 let maxValue = 0; 
  
-maxValue = GeneralAge>UserAge ? GeneralAge : UserAge; 
+maxValue = UserAge >= 18 ? true : false; 
  
-console.log(`${maxValue==UserAge}`); 
+console.log(`${maxValue}`);
  
 //2nd Task 
  
